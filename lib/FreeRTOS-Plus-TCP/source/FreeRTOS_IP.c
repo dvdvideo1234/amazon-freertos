@@ -858,7 +858,7 @@ NetworkBufferDescriptor_t * pxNewBuffer;
 
 #if( ipconfigZERO_COPY_TX_DRIVER != 0 ) || ( ipconfigZERO_COPY_RX_DRIVER != 0 )
 
-	NetworkBufferDescriptor_t *pxPacketBuffer_to_NetworkBuffer( void *pvBuffer )
+	NetworkBufferDescriptor_t *pxPacketBuffer_to_NetworkBuffer( const void *pvBuffer )
 	{
 	uint8_t *pucBuffer;
 	NetworkBufferDescriptor_t *pxResult;

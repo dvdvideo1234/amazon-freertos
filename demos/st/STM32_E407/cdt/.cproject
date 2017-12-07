@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="cdt.managedbuild.config.gnu.cross.exe.debug.1017583002">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.cross.exe.debug.1017583002" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.cross.exe.debug.1017583002" name="Debug" parent="cdt.managedbuild.config.gnu.cross.exe.debug">
+					<folderInfo id="cdt.managedbuild.config.gnu.cross.exe.debug.1017583002." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.cross.exe.debug.887864762" name="Cross GCC" superClass="cdt.managedbuild.toolchain.gnu.cross.exe.debug">
+							<option id="cdt.managedbuild.option.gnu.cross.prefix.1458043103" name="Prefix" superClass="cdt.managedbuild.option.gnu.cross.prefix" value="arm-none-eabi-" valueType="string"/>
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="cdt.managedbuild.targetPlatform.gnu.cross.1682538456" isAbstract="false" osList="all" superClass="cdt.managedbuild.targetPlatform.gnu.cross"/>
+							<builder buildPath="${workspace_loc:/rain-git}/Debug" id="cdt.managedbuild.builder.gnu.cross.619617942" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.builder.gnu.cross"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.c.compiler.1224185129" name="Cross GCC Compiler" superClass="cdt.managedbuild.tool.gnu.cross.c.compiler">
+								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.option.optimization.level.1752930463" name="Optimization Level" superClass="gnu.c.compiler.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.debugging.level.405151083" name="Debug Level" superClass="gnu.c.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.include.paths.1167749952" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/rain-git}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/rain-git/config_files}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/rain-git/application_code}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/rain-git/application_code/common_demos/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/rain-git/lib/aws/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/rain-git/lib/aws/include/private}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/rain-git/lib/aws/FreeRTOS/portable/GCC/ARM_CM4F}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/rain-git/lib/third_party/jsmn}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/rain-git/lib/third_party/pkcs11}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/rain-git/lib/third_party/mbedtls/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/rain-git/lib/third_party/mcu_vendor/st/STM32_E407/STM32F4xx_HAL_Driver/Inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/rain-git/lib/third_party/mcu_vendor/st/STM32_E407/STM32F4xx_HAL_Driver/Inc/Legacy}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/rain-git/lib/third_party/mcu_vendor/st/STM32_E407/CMSIS/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/rain-git/lib/third_party/mcu_vendor/st/STM32_E407/CMSIS/Device/ST/STM32F4xx/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/rain-git/application_code/st_code}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/rain-git/lib/aws/FreeRTOS-Plus-TCP/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/rain-git/lib/aws/FreeRTOS-Plus-TCP/source/portable/Compiler/GCC}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/rain-git/lib/aws/FreeRTOS-Plus-TCP/source/portable/NetworkInterface/include}&quot;"/>
+								</option>
+								<option id="gnu.c.compiler.option.preprocessor.def.symbols.14720728" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="USE_HAL_DRIVER"/>
+									<listOptionValue builtIn="false" value="STM32F407xx"/>
+									<listOptionValue builtIn="false" value="MQTTCLIENT_PLATFORM_HEADER=MQTTCMSIS.h"/>
+									<listOptionValue builtIn="false" value="_SYS_TIME_H_"/>
+									<listOptionValue builtIn="false" value="_TIMEVAL_DEFINES"/>
+								</option>
+								<option id="gnu.c.compiler.option.dialect.std.346127336" name="Language standard" superClass="gnu.c.compiler.option.dialect.std" useByScannerDiscovery="true" value="gnu.c.compiler.dialect.default" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.misc.other.126780304" name="Other flags" superClass="gnu.c.compiler.option.misc.other" useByScannerDiscovery="false" value="-c -fmessage-length=0 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard" valueType="string"/>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.2019655427" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cross.cpp.compiler.2047519352" name="Cross G++ Compiler" superClass="cdt.managedbuild.tool.gnu.cross.cpp.compiler">
+								<option id="gnu.cpp.compiler.option.optimization.level.2085320066" name="Optimization Level" superClass="gnu.cpp.compiler.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.debugging.level.820631679" name="Debug Level" superClass="gnu.cpp.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cross.c.linker.116730711" name="Cross GCC Linker" superClass="cdt.managedbuild.tool.gnu.cross.c.linker">
+								<option id="gnu.c.link.option.nostdlibs.882002715" name="No startup or default libs (-nostdlib)" superClass="gnu.c.link.option.nostdlibs" value="false" valueType="boolean"/>
+								<option id="gnu.c.link.option.nodeflibs.153310698" name="Do not use default libraries (-nodefaultlibs)" superClass="gnu.c.link.option.nodeflibs" value="false" valueType="boolean"/>
+								<option id="gnu.c.link.option.nostart.775722242" name="Do not use standard start files (-nostartfiles)" superClass="gnu.c.link.option.nostart" value="false" valueType="boolean"/>
+								<option id="gnu.c.link.option.ldflags.1103527705" name="Linker flags" superClass="gnu.c.link.option.ldflags" value="-mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -specs=nano.specs -T${workspace_loc:/${ProjName}/STM32F407ZGTx_FLASH.ld} -Wl,-Map=${ProjName}.map,--cref -Wl,--gc-sections" valueType="string"/>
+								<option id="gnu.c.link.option.userobjs.1897514686" name="Other objects" superClass="gnu.c.link.option.userobjs" valueType="userObjs"/>
+								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.532666273" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cross.cpp.linker.2068653690" name="Cross G++ Linker" superClass="cdt.managedbuild.tool.gnu.cross.cpp.linker"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.archiver.16134969" name="Cross GCC Archiver" superClass="cdt.managedbuild.tool.gnu.cross.archiver"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.assembler.1765494338" name="Cross GCC Assembler" superClass="cdt.managedbuild.tool.gnu.cross.assembler">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1301510557" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="lib/third_party/mcu_vendor/st/STM32_E407/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_tim_template.c|lib/third_party/mcu_vendor/st/STM32_E407/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_wakeup_template.c|lib/third_party/mcu_vendor/st/STM32_E407/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_alarm_template.c|lib/third_party/mcu_vendor/st/STM32_E407/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_msp_template.c|lib/aws/FreeRTOS/portable/GCC/TriCore_1782|lib/aws/FreeRTOS/portable/GCC/stubs|lib/aws/FreeRTOS/portable/GCC/STR75x|lib/aws/FreeRTOS/portable/GCC/RX600v2|lib/aws/FreeRTOS/portable/GCC/RX600|lib/aws/FreeRTOS/portable/GCC/RX100|lib/aws/FreeRTOS/portable/GCC/RL78|lib/aws/FreeRTOS/portable/GCC/PPC440_Xilinx|lib/aws/FreeRTOS/portable/GCC/PPC405_Xilinx|lib/aws/FreeRTOS/portable/GCC/NiosII|lib/aws/FreeRTOS/portable/GCC/MSP430F449|lib/aws/FreeRTOS/portable/GCC/MicroBlazeV9|lib/aws/FreeRTOS/portable/GCC/MicroBlazeV8|lib/aws/FreeRTOS/portable/GCC/MicroBlaze|lib/aws/FreeRTOS/portable/GCC/MCF5235|lib/aws/FreeRTOS/portable/GCC/IA32_flat|lib/aws/FreeRTOS/portable/GCC/HCS12|lib/aws/FreeRTOS/portable/GCC/H8S2329|lib/aws/FreeRTOS/portable/GCC/CORTUS_APS3|lib/aws/FreeRTOS/portable/GCC/ColdFire_V2|lib/aws/FreeRTOS/portable/GCC/AVR32_UC3|lib/aws/FreeRTOS/portable/GCC/ATMega323|lib/aws/FreeRTOS/portable/GCC/ARM7_LPC23xx|lib/aws/FreeRTOS/portable/GCC/ARM7_LPC2000|lib/aws/FreeRTOS/portable/GCC/ARM7_AT91SAM7S|lib/aws/FreeRTOS/portable/GCC/ARM7_AT91FR40008|lib/aws/FreeRTOS/portable/GCC/ARM_CRx_No_GIC|lib/aws/FreeRTOS/portable/GCC/ARM_CR5|lib/aws/FreeRTOS/portable/GCC/ARM_CM7|lib/aws/FreeRTOS/portable/GCC/ARM_CM4_MPU|lib/aws/FreeRTOS/portable/GCC/ARM_CM3_MPU|lib/aws/FreeRTOS/portable/GCC/ARM_CM3|lib/aws/FreeRTOS/portable/GCC/ARM_CM0|lib/aws/FreeRTOS/portable/GCC/ARM_CA9|lib/aws/FreeRTOS/portable/GCC/ARM_CA53_64_BIT|lib/aws/FreeRTOS/portable/MemMang/heap_5.c|lib/aws/FreeRTOS/portable/MemMang/heap_3.c|lib/aws/FreeRTOS/portable/MemMang/heap_2.c|lib/aws/FreeRTOS/portable/MemMang/heap_1.c|lib/aws/FreeRTOS/portable/Tasking|lib/aws/FreeRTOS/portable/Softune|lib/aws/FreeRTOS/portable/RVDS|lib/aws/FreeRTOS/portable/Rowley|lib/aws/FreeRTOS/portable/Renesas|lib/aws/FreeRTOS/portable/Paradigm|lib/aws/FreeRTOS/portable/MSVC-MingW|lib/aws/FreeRTOS/portable/MPLAB|lib/aws/FreeRTOS/portable/MikroC|lib/aws/FreeRTOS/portable/Keil|lib/aws/FreeRTOS/portable/IAR|lib/aws/FreeRTOS/portable/Compiler|lib/aws/FreeRTOS/portable/Common|lib/aws/FreeRTOS/portable/CCS|lib/aws/FreeRTOS-Plus-TCP/source/protocols|lib/aws/FreeRTOS-Plus-TCP/source/portable/NetworkInterface/Zynq|lib/aws/FreeRTOS-Plus-TCP/source/portable/NetworkInterface/WinPCap|lib/aws/FreeRTOS-Plus-TCP/source/portable/NetworkInterface/SH2A|lib/aws/FreeRTOS-Plus-TCP/source/portable/NetworkInterface/LPC18xx|lib/aws/FreeRTOS-Plus-TCP/source/portable/NetworkInterface/LPC17xx|lib/aws/FreeRTOS-Plus-TCP/source/portable/NetworkInterface/ksz8851snl|lib/aws/FreeRTOS-Plus-TCP/source/portable/NetworkInterface/ATSAM4E|lib/aws/FreeRTOS-Plus-TCP/source/portable/Compiler/Renesas|lib/aws/FreeRTOS-Plus-TCP/source/portable/Compiler/MSVC|lib/aws/FreeRTOS-Plus-TCP/source/portable/Compiler/IAR|lib/aws/FreeRTOS-Plus-TCP/source/portable/BufferManagement/BufferAllocation_1.c|lib/third_party/mcu_vendor/st/STM32_E407/BSP/STM32F4xx-Nucleo|lib/third_party/mcu_vendor/st/STM32_E407/BSP/STM32F4xx_Nucleo_144|lib/third_party/mcu_vendor/st/STM32_E407/BSP/STM32F4-Discovery|lib/third_party/mcu_vendor/st/STM32_E407/BSP/STM32F429I-Discovery|lib/third_party/mcu_vendor/st/STM32_E407/BSP/STM32F413H-Discovery|lib/third_party/mcu_vendor/st/STM32_E407/BSP/STM32F411E-Discovery|lib/third_party/mcu_vendor/st/STM32_E407/BSP/STM32F401-Discovery|lib/third_party/mcu_vendor/st/STM32_E407/BSP/STM324xG_EVAL|lib/third_party/mcu_vendor/st/STM32_E407/BSP/STM324x9I_EVAL|lib/third_party/mcu_vendor/st/STM32_E407/BSP/STM32469I-Discovery|lib/third_party/mcu_vendor/st/STM32_E407/BSP/STM32469I_EVAL|lib/third_party/mcu_vendor/st/STM32_E407/BSP/STM32446E_EVAL|lib/third_party/mcu_vendor/st/STM32_E407/BSP/STM32412G-Discovery|lib/third_party/mcu_vendor/st/STM32_E407/BSP/Components|lib/third_party/mcu_vendor/st/STM32_E407/BSP/Adafruit_Shield|lib/third_party/mcu_vendor/st/STM32_E407/CMSIS/Device/ST/STM32F4xx/Source|lib/third_party/mcu_vendor/st/STM32_E407/CMSIS/RTOS|lib/third_party/mcu_vendor/st/STM32_E407/CMSIS/DSP_Lib|lib/third_party/mcu_vendor/st/STM32_E407/CMSIS/Documentation|lib/third_party/mcu_vendor/st/stm32l475_discovery" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="cdt.managedbuild.config.gnu.cross.exe.release.1551973084">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.cross.exe.release.1551973084" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.cross.exe.release.1551973084" name="Release" parent="cdt.managedbuild.config.gnu.cross.exe.release">
+					<folderInfo id="cdt.managedbuild.config.gnu.cross.exe.release.1551973084." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.cross.exe.release.1740026520" name="Cross GCC" superClass="cdt.managedbuild.toolchain.gnu.cross.exe.release">
+							<option id="cdt.managedbuild.option.gnu.cross.prefix.1091696498" name="Prefix" superClass="cdt.managedbuild.option.gnu.cross.prefix" value="arm-none-eabi-" valueType="string"/>
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="cdt.managedbuild.targetPlatform.gnu.cross.1716887684" isAbstract="false" osList="all" superClass="cdt.managedbuild.targetPlatform.gnu.cross"/>
+							<builder buildPath="${workspace_loc:/rain-git}/Release" id="cdt.managedbuild.builder.gnu.cross.736909885" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.builder.gnu.cross"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.c.compiler.261998631" name="Cross GCC Compiler" superClass="cdt.managedbuild.tool.gnu.cross.c.compiler">
+								<option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.option.optimization.level.1206594657" name="Optimization Level" superClass="gnu.c.compiler.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.debugging.level.1306639250" name="Debug Level" superClass="gnu.c.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.none" valueType="enumerated"/>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1097393892" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cross.cpp.compiler.1777478512" name="Cross G++ Compiler" superClass="cdt.managedbuild.tool.gnu.cross.cpp.compiler">
+								<option id="gnu.cpp.compiler.option.optimization.level.40107153" name="Optimization Level" superClass="gnu.cpp.compiler.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.most" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.debugging.level.1338955097" name="Debug Level" superClass="gnu.cpp.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.none" valueType="enumerated"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cross.c.linker.180843188" name="Cross GCC Linker" superClass="cdt.managedbuild.tool.gnu.cross.c.linker">
+								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.1870865379" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cross.cpp.linker.518974657" name="Cross G++ Linker" superClass="cdt.managedbuild.tool.gnu.cross.cpp.linker"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.archiver.1797992037" name="Cross GCC Archiver" superClass="cdt.managedbuild.tool.gnu.cross.archiver"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.assembler.1805963022" name="Cross GCC Assembler" superClass="cdt.managedbuild.tool.gnu.cross.assembler">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.952070607" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="lib/third_party/mcu_vendor/st/STM32_E407/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_tim_template.c|lib/third_party/mcu_vendor/st/STM32_E407/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_wakeup_template.c|lib/third_party/mcu_vendor/st/STM32_E407/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_alarm_template.c|lib/third_party/mcu_vendor/st/STM32_E407/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_msp_template.c|lib/aws/FreeRTOS/portable/GCC/TriCore_1782|lib/aws/FreeRTOS/portable/GCC/stubs|lib/aws/FreeRTOS/portable/GCC/STR75x|lib/aws/FreeRTOS/portable/GCC/RX600v2|lib/aws/FreeRTOS/portable/GCC/RX600|lib/aws/FreeRTOS/portable/GCC/RX100|lib/aws/FreeRTOS/portable/GCC/RL78|lib/aws/FreeRTOS/portable/GCC/PPC440_Xilinx|lib/aws/FreeRTOS/portable/GCC/PPC405_Xilinx|lib/aws/FreeRTOS/portable/GCC/NiosII|lib/aws/FreeRTOS/portable/GCC/MSP430F449|lib/aws/FreeRTOS/portable/GCC/MicroBlazeV9|lib/aws/FreeRTOS/portable/GCC/MicroBlazeV8|lib/aws/FreeRTOS/portable/GCC/MicroBlaze|lib/aws/FreeRTOS/portable/GCC/MCF5235|lib/aws/FreeRTOS/portable/GCC/IA32_flat|lib/aws/FreeRTOS/portable/GCC/HCS12|lib/aws/FreeRTOS/portable/GCC/H8S2329|lib/aws/FreeRTOS/portable/GCC/CORTUS_APS3|lib/aws/FreeRTOS/portable/GCC/ColdFire_V2|lib/aws/FreeRTOS/portable/GCC/AVR32_UC3|lib/aws/FreeRTOS/portable/GCC/ATMega323|lib/aws/FreeRTOS/portable/GCC/ARM7_LPC23xx|lib/aws/FreeRTOS/portable/GCC/ARM7_LPC2000|lib/aws/FreeRTOS/portable/GCC/ARM7_AT91SAM7S|lib/aws/FreeRTOS/portable/GCC/ARM7_AT91FR40008|lib/aws/FreeRTOS/portable/GCC/ARM_CRx_No_GIC|lib/aws/FreeRTOS/portable/GCC/ARM_CR5|lib/aws/FreeRTOS/portable/GCC/ARM_CM7|lib/aws/FreeRTOS/portable/GCC/ARM_CM4_MPU|lib/aws/FreeRTOS/portable/GCC/ARM_CM3_MPU|lib/aws/FreeRTOS/portable/GCC/ARM_CM3|lib/aws/FreeRTOS/portable/GCC/ARM_CM0|lib/aws/FreeRTOS/portable/GCC/ARM_CA9|lib/aws/FreeRTOS/portable/GCC/ARM_CA53_64_BIT|lib/aws/FreeRTOS/portable/MemMang/heap_5.c|lib/aws/FreeRTOS/portable/MemMang/heap_3.c|lib/aws/FreeRTOS/portable/MemMang/heap_2.c|lib/aws/FreeRTOS/portable/MemMang/heap_1.c|lib/aws/FreeRTOS/portable/Tasking|lib/aws/FreeRTOS/portable/Softune|lib/aws/FreeRTOS/portable/RVDS|lib/aws/FreeRTOS/portable/Rowley|lib/aws/FreeRTOS/portable/Renesas|lib/aws/FreeRTOS/portable/Paradigm|lib/aws/FreeRTOS/portable/MSVC-MingW|lib/aws/FreeRTOS/portable/MPLAB|lib/aws/FreeRTOS/portable/MikroC|lib/aws/FreeRTOS/portable/Keil|lib/aws/FreeRTOS/portable/IAR|lib/aws/FreeRTOS/portable/Compiler|lib/aws/FreeRTOS/portable/Common|lib/aws/FreeRTOS/portable/CCS|lib/aws/FreeRTOS-Plus-TCP/source/protocols|lib/aws/FreeRTOS-Plus-TCP/source/portable/NetworkInterface/Zynq|lib/aws/FreeRTOS-Plus-TCP/source/portable/NetworkInterface/WinPCap|lib/aws/FreeRTOS-Plus-TCP/source/portable/NetworkInterface/SH2A|lib/aws/FreeRTOS-Plus-TCP/source/portable/NetworkInterface/LPC18xx|lib/aws/FreeRTOS-Plus-TCP/source/portable/NetworkInterface/LPC17xx|lib/aws/FreeRTOS-Plus-TCP/source/portable/NetworkInterface/ksz8851snl|lib/aws/FreeRTOS-Plus-TCP/source/portable/NetworkInterface/ATSAM4E|lib/aws/FreeRTOS-Plus-TCP/source/portable/Compiler/Renesas|lib/aws/FreeRTOS-Plus-TCP/source/portable/Compiler/MSVC|lib/aws/FreeRTOS-Plus-TCP/source/portable/Compiler/IAR|lib/aws/FreeRTOS-Plus-TCP/source/portable/BufferManagement/BufferAllocation_1.c|lib/third_party/mcu_vendor/st/STM32_E407/BSP/STM32F4xx-Nucleo|lib/third_party/mcu_vendor/st/STM32_E407/BSP/STM32F4xx_Nucleo_144|lib/third_party/mcu_vendor/st/STM32_E407/BSP/STM32F4-Discovery|lib/third_party/mcu_vendor/st/STM32_E407/BSP/STM32F429I-Discovery|lib/third_party/mcu_vendor/st/STM32_E407/BSP/STM32F413H-Discovery|lib/third_party/mcu_vendor/st/STM32_E407/BSP/STM32F411E-Discovery|lib/third_party/mcu_vendor/st/STM32_E407/BSP/STM32F401-Discovery|lib/third_party/mcu_vendor/st/STM32_E407/BSP/STM324xG_EVAL|lib/third_party/mcu_vendor/st/STM32_E407/BSP/STM324x9I_EVAL|lib/third_party/mcu_vendor/st/STM32_E407/BSP/STM32469I-Discovery|lib/third_party/mcu_vendor/st/STM32_E407/BSP/STM32469I_EVAL|lib/third_party/mcu_vendor/st/STM32_E407/BSP/STM32446E_EVAL|lib/third_party/mcu_vendor/st/STM32_E407/BSP/STM32412G-Discovery|lib/third_party/mcu_vendor/st/STM32_E407/BSP/Components|lib/third_party/mcu_vendor/st/STM32_E407/BSP/Adafruit_Shield|lib/third_party/mcu_vendor/st/STM32_E407/CMSIS/Device/ST/STM32F4xx/Source|lib/third_party/mcu_vendor/st/STM32_E407/CMSIS/RTOS|lib/third_party/mcu_vendor/st/STM32_E407/CMSIS/DSP_Lib|lib/third_party/mcu_vendor/st/STM32_E407/CMSIS/Documentation|lib/third_party/mcu_vendor/st/stm32l475_discovery" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="rain-git.cdt.managedbuild.target.gnu.cross.exe.1477019325" name="Executable" projectType="cdt.managedbuild.target.gnu.cross.exe"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<!--scannerConfigBuildInfo instanceId="fr.ac6.managedbuild.config.gnu.cross.exe.release.$(RELEASE_CONFIG_UID);fr.ac6.managedbuild.config.gnu.cross.exe.release.$(RELEASE_CONFIG_UID).;fr.ac6.managedbuild.tool.gnu.cross.c.compiler.$(RELEASE_TOOL_COMPILER_UID);cdt.managedbuild.tool.gnu.c.compiler.input.$(RELEASE_TOOL_COMPILER_INPUT_UID)">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo--><autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.cross.exe.release.1551973084;cdt.managedbuild.config.gnu.cross.exe.release.1551973084.;cdt.managedbuild.tool.gnu.cross.c.compiler.261998631;cdt.managedbuild.tool.gnu.c.compiler.input.1097393892">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="fr.ac6.managedbuild.config.gnu.cross.exe.debug.887144602;fr.ac6.managedbuild.config.gnu.cross.exe.debug.887144602.;fr.ac6.managedbuild.tool.gnu.cross.c.compiler.684170490;fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.c.720679890">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.cross.exe.debug.230795524;cdt.managedbuild.config.gnu.cross.exe.debug.230795524.;cdt.managedbuild.tool.gnu.cross.c.compiler.1894707015;cdt.managedbuild.tool.gnu.c.compiler.input.1397376353">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.cross.exe.debug.1017583002;cdt.managedbuild.config.gnu.cross.exe.debug.1017583002.;cdt.managedbuild.tool.gnu.cross.c.compiler.1224185129;cdt.managedbuild.tool.gnu.c.compiler.input.2019655427">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.cross.exe.release.1924084137;cdt.managedbuild.config.gnu.cross.exe.release.1924084137.;cdt.managedbuild.tool.gnu.cross.c.compiler.1181677560;cdt.managedbuild.tool.gnu.c.compiler.input.669054546">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope"/>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+</cproject>

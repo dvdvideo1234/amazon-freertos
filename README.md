@@ -10,6 +10,7 @@ Use the following MCU hardware to get started:
 1. **Texas Instruments** - [CC3220SF-LAUNCHXL](http://www.ti.com/tool/cc3220sf-launchxl).
 2. **STMicroelectronics** - [STM32L4 Discovery kit IoT node](http://www.st.com/en/evaluation-tools/b-l475e-iot01a.html).
 3. **NXP** - [LPC54018 IoT Module](http://www.nxp.com/LPC-AWS-Module).
+4. **STMicroelectronics/Olimex** [STM32-E407](https://www.olimex.com/Products/ARM/ST/STM32-E407/open-source-hardware)
 
 To evaluate Amazon FreeRTOS without using an MCU-based hardware, use the following:
 1. **Windows Simulator** - Microsoft Windows 7 or newer, with at least a dual core and a hard-wired Ethernet connection.
@@ -21,3 +22,4 @@ Based on your MCU hardware, download one of the following Integrated Development
 2. **STMicroelectronics** - [STM32 System Workbench](http://openstm32.org/HomePage).
 3. **NXP** - [IAR Embedded Workbench](https://www.iar.com/iar-embedded-workbench/partners/nxp).
 4. **Windows Simulator** - [Visual Studio Community Edition](https://www.visualstudio.com/downloads/).
+5. **STMicroelectronics/Olimex** - Eclipse CDT(https://www.eclipse.org/cdt/) and gcc-arm-none-eabi(https://launchpad.net/gcc-arm-embedded/)
