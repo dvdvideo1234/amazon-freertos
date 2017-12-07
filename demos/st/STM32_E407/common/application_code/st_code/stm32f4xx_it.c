@@ -40,8 +40,6 @@
 /* USER CODE END 0 */
 
 /* External variables --------------------------------------------------------*/
-extern ETH_HandleTypeDef heth;
-extern HCD_HandleTypeDef hhcd_USB_OTG_FS;
 
 extern TIM_HandleTypeDef htim1;
 

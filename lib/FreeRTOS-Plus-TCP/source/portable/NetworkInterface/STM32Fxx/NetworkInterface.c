@@ -145,6 +145,9 @@ static void prvEthernetUpdateConfig( BaseType_t xForce );
  */
 static BaseType_t prvNetworkInterfaceInput( void );
 
+void vMACBProbePhy( void );
+void phy_test();
+
 #if( ipconfigUSE_LLMNR != 0 )
 	/*
 	 * For LLMNR, an extra MAC-address must be configured to
